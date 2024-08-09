@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#restaurant-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#restuarnat-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.restaurant {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 80%;
+  text-align: center;
+}
+
+#pagination-controls {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+span {
+  margin: 0 10px;
+}
