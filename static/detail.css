@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #deac80;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.he1 {
+  text-align: center;
+}
+
+#restaurant-detail {
+  background-color: rgba(247, 220, 185, 0.8);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 800px;
+  margin-left: 10.5em;
+}
+
+#restaurant-detail h1 {
+  font-size: 2em;
+  margin-top: 0;
+  color: #333;
+  text-align: center;
+}
+
+#restaurant-detail img {
+  width: 100%; /* Set width to 100% of its container */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 600px; /* Set a maximum width for the image */
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#restaurant-detail p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin: 10px 0;
+  margin-left: 4em;
+}
+
+#restaurant-detail p strong {
+  color: #1b1a1a;
+}
+
+#restaurant-detail a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+#restaurant-detail a:hover {
+  text-decoration: underline;
+}
+
+#restaurant-detail .rating {
+  font-size: 1.2em;
+  color: #f39c12; /* Gold color for rating stars */
+  font-weight: bold;
+}
+
+#restaurant-detail .rating span {
+  font-size: 1.5em; /* Larger font size for the rating value */
+  color: #f39c12; /* Gold color for the rating value */
+  margin-left: 10px; /* Space between rating text and value */
+}
